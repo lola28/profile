@@ -16,6 +16,12 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 color:#f0b7a4;
 }
+
+.container {
+    width: 850px;
+    margin: 0 auto
+  }
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -37,7 +43,7 @@ color:#f0b7a4;
 
 .card {
   background-color: #eaf5ff;
-  width: 600px;
+  width: 100%;
   margin: 20px auto;
   padding: 30px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
@@ -66,7 +72,7 @@ a:hover{
 .social-icon {
   font-size: 40px;
   margin: 0 10px;
-  color: #6b72e1;
+  color: #d1d1d1;
 }
 .img-circle {
   width: 100px;
@@ -81,4 +87,8 @@ a:hover{
   display: inline-block;
   margin-top: 16px;
   border-radius: 4px;
+}
+
+.social-icon:hover{
+  background-color: #f5e1da;
 }
